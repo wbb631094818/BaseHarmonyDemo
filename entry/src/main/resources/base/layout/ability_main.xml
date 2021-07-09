@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:top_margin="200px"
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:mainability_HelloWorld"
+        ohos:text_size="40vp"
+        />
+
+    <Button
+        ohos:id="$+id:bt"
+        ohos:top_margin="48px"
+        ohos:text_size="20vp"
+        ohos:text="点击跳转到下一页"
+        ohos:height="120px"
+        ohos:width="match_parent"/>
+
+</DirectionalLayout>
